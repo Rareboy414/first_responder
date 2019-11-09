@@ -1,11 +1,10 @@
 package com.company;
-
-import java.util.Scanner;
+import javax.swing.*;
 
 public class Main {
 
     public static void main(String[] args) {
-        Scanner reader = new Scanner(System.in);   //instantiating scanner obj here (use reader for all scanner uses)
+        /*Scanner reader = new Scanner(System.in);   //instantiating scanner obj here (use reader for all scanner uses)
         System.out.println("Hello, you have reached the emergency first responder help line. What is your emergency? (Please use obvious keywords so we can diagnose your emergency accurately.");
         String emergency = reader.nextLine();      //sets String variable emergency to input from user
 
@@ -37,7 +36,9 @@ public class Main {
             if(location.indexOf("auto") >=0 )                                                                            //gets location of user
                 System.out.println("Dispatching officers to device's current location. Make sure location is enabled on this device. Officers will arrive in approximately " + (int) (1 + Math.random() * 20) + " minute(s). Stay safe and try to get to safety while the officers arrive.");
             else
-                System.out.println("Dispatching officers to " + location + ". Officers will arrive in approximately " + (int) (1 + Math.random() * 20) + " minute(s). Stay safe and try to get to safety while the officers arrive.");
+                System.out.println("Dispatching officers to " + location + ". Officers will arrive in approximately " + (int) (1 + Math.random() * 20) + " minute(s). Stay safe and try to get to safety while the officers arrive.");*/
+        Frame f = new Frame();
+
         }
     }
-}
+
